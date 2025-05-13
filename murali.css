@@ -1,0 +1,104 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.portfolio {
+    /* display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; */
+    background-color:whitesmoke;
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        padding: 20px;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 20px;
+            color: orangered;
+        }
+
+        button {
+            background-color:orangered;
+            color: white;
+            text-transform: capitalize;
+            border: 1px solid black;
+            border-radius: 20px;
+            font-size: 15px;
+            width: 100px;
+            height: 50px;
+        }
+
+        .logo {
+            color:orangered;
+            font-size: 40px;
+        }
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-transform: capitalize;
+        height: 100vh;
+        margin-left: 100px;
+
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            p {
+                /* border: 1px solid black; */
+                width: 400px;
+                text-align: justify;
+            }
+
+            span {
+                color: orangered;
+            }
+
+            .button {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                #b1 {
+                    background-color: black;
+                    color: white;
+                }
+
+                button {
+                    text-transform: capitalize;
+                    background-color: orangered;
+                    /* color: white; */
+                    padding: 10px;
+                    border: 1px solid black;
+                    border-radius: 20px;
+                }
+            }
+        }
+
+        .left {
+            img {
+                height: 300px;
+                width: 300px;
+                border: 2px solid black;
+                border-radius: 50px;
+            }
+        }
+
+    }
+}
